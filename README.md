@@ -26,3 +26,21 @@ Tuffjeffium, Ty -> false
 Bonus
 
 Given an element name, find the valid symbol for that name that's first in alphabetical order. E.g. Gozerium -> Ei, Slimyrine -> Ie.
+
+
+Part 2
+
+The Planet Java has decided to keep their current naming conventions, as listed above, but to add a preference system. So while there are still 6 valid symbols for the element Iron, the preferred symbol is Ir. The second-most preferred symbol is Io then In, Ro, Rn and finally On.
+
+A symbol is preferred based on how early in the element name its first letter is, followed by how early its second letter is.
+
+In the case of repeated letters like in Neon, Eo is preferred to En, even though an n is closer to the beginning of Neon than the o is. This is because it's the second n that's used in the symbol En, since the second letter in the symbol must appear after the first.
+
+Choose the most preferred valid symbol for that element that's not already taken by another element. For instance, if Chlorine were the first element added, then it would get the symbol Ch, If Chromium was added later, it would get the symbol Cr.  If Cesium and Cerium were then added, they would get the symbols Ce and Ci.  If there are no valid symbols for the new element you need to decide how to handle this disruption.
+
+Details and Example
+Details and examples
+The list of all 366 elements known are set to be assigned a symbol, one by one, in order, following the preference rules above.  There are many ways to achieve this.
+
+Determine the symbol assigned to each element in the list. For instance, you should find that Protactinium is assigned Pt, Californium is assigned Cf, and Lionium is assigned Iu.
+Find the first element that will not be able to have a symbol assigned, because when you get to it all the valid symbols for it are taken. The program should not terminate here.

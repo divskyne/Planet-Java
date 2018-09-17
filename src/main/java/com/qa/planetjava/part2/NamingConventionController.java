@@ -1,4 +1,4 @@
-package com.qa.planetjava;
+package com.qa.planetjava.part2;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

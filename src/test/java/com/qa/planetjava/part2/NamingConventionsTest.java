@@ -1,8 +1,10 @@
-package com.qa.planetjava;
+package com.qa.planetjava.part2;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.qa.planetjava.part2.NamingConventionController;
 
 /**
  * @author divine 2018-09-17
