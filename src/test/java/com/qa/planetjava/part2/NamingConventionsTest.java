@@ -15,7 +15,6 @@ public class NamingConventionsTest {
 	
 	@Test
     public void nameCheck() throws Exception {
-		
 		assertEquals("Pt", n.getSymbols().get(n.getElements().indexOf("Protactinium")));
 		assertEquals("Cf", n.getSymbols().get(n.getElements().indexOf("Californium")));
 		assertEquals("Iu", n.getSymbols().get(n.getElements().indexOf("Lionoium")));
